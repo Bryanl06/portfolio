@@ -8,7 +8,7 @@ export function Projects() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  const githubUsername = "tu-usuario"
+  const githubUsername = "Bryanl06"
 
   useEffect(() => {
     async function fetchRepos() {

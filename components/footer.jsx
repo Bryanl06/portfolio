@@ -11,7 +11,7 @@ export function Footer() {
               Proyectos
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/Bryanl06"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"

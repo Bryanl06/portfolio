@@ -25,7 +25,7 @@ export function Hero() {
             <a href="#projects">Ver Proyectos</a>
           </Button>
           <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-transparent">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Bryanl06" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-5 w-5" />
               GitHub
             </a>
@@ -34,7 +34,7 @@ export function Hero() {
 
         <div className="flex gap-6 justify-center animate-fade-in">
           <a
-            href="https://github.com"
+            href="https://github.com/Bryanl06"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
@@ -43,7 +43,7 @@ export function Hero() {
             <Github className="h-7 w-7" />
           </a>
           <a
-            href="https://es.linkedin.com/in/bryan-leines-811b9a259"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
@@ -52,7 +52,7 @@ export function Hero() {
             <Linkedin className="h-7 w-7" />
           </a>
           <a
-            href="mailto:bryanleines1@gmail.com"
+            href="mailto:tu@email.com"
             className="text-muted-foreground hover:text-foreground transition-colors hover:scale-110 transform duration-200"
             aria-label="Email"
           >
@@ -63,7 +63,6 @@ export function Hero() {
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
           <ArrowDown className="h-6 w-6 text-muted-foreground" />
         </div>
-        {/* </CHANGE> */}
       </div>
     </section>
   )

@@ -5,7 +5,7 @@ import { Technologies } from "@/components/technologies"
 import { Projects } from "@/components/projects"
 import { Footer } from "@/components/footer"
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="min-h-screen">
       <Hero />
